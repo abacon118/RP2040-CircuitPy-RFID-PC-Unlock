@@ -18,14 +18,14 @@ Parts:
 * 3x 200 Ohm Resistors for RGB LED
 
 
-#Schematic
+# Schematic
 <picture>
  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/abacon118/RP2040-CircuitPy-RFID-PC-Unlock/blob/main/Schematic/RFID_PC_RP2040Zero.jpg">
  <source media="(prefers-color-scheme: light)" srcset="https://github.com/abacon118/RP2040-CircuitPy-RFID-PC-Unlock/blob/main/Schematic/RFID_PC_RP2040Zero.jpg">
  <img alt="Schematic" src="https://github.com/abacon118/RP2040-CircuitPy-RFID-PC-Unlock/blob/main/Schematic/RFID_PC_RP2040Zero.jpg">
 </picture>
 
-#Finished Project
+# Finished Project
 <picture>
  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/abacon118/RP2040-CircuitPy-RFID-PC-Unlock/blob/main/Photos/PXL_20230624_032824612.jpg">
  <source media="(prefers-color-scheme: light)" srcset="https://github.com/abacon118/RP2040-CircuitPy-RFID-PC-Unlock/blob/main/Photos/PXL_20230624_032824612.jpg">
