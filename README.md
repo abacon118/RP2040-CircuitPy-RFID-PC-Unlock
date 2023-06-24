@@ -17,6 +17,14 @@ Parts:
 * Common Cathode RGB LED (definently can be switches to Common Anthode LED) - Optional, not pictured
 * 3x 200 Ohm Resistors for RGB LED
 
+Steps to set up:
+1. Connect RC522 RFID Reader to your RP2040 Zero.
+2. Download CircuitPython_Device and open Code.Py in Thonny.  Copy lib folder to Circuit Python device with Thonny (see Get Started with MicroPython on Raspberry Pi Pico)
+3. Run the Code
+4. Scan your RFID/NFC cards/fobs
+5. Copy the card/fob ID into line 27
+6. Insert your password or passcode into line 68
+7. Save code.py to RP2040 Zero
 
 # Schematic
 <picture>
