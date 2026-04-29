@@ -22,11 +22,16 @@ Parts:
 Steps to set up:
 1. Connect RC522 RFID Reader to your RP2040 Zero.
 2. Install Circuit Python on your device.  This was tested with Circuit Python 8.1.0 on a Waveshare RP2040 Zero.
-3. Download CircuitPython_Device and open Code.Py in Thonny.  Copy lib folder to Circuit Python device with Thonny (see Get Started with MicroPython on Raspberry Pi Pico)
-4. Run the Code
-5. During the first run you will be asked to enter your computer pin number.  This can be reset by deleting pin.bin.
-6. Scan your NFC Cards
-7. Put the UUID for each card on one line and save in keys.txt.
+3. Copy the following to your Circuit Python device.
+    boot.py
+    code.py
+    mrfc522.py
+    pin_manager.py
+    lib
+5. Run the Code
+6. During the first run you will be asked to enter your computer pin number.  This can be reset by deleting pin.bin.
+7. Scan your NFC Cards
+8. Put the UUID for each card on one line and save in keys.txt.
 
 # Schematic
 <picture>
