@@ -28,10 +28,11 @@ Steps to set up:
     mrfc522.py
     pin_manager.py
     lib
-5. Run the Code
-6. During the first run you will be asked to enter your computer pin number.  This can be reset by deleting pin.bin.
-7. Scan your NFC Cards
-8. Put the UUID for each card on one line and save in keys.txt.
+4. Run the Code
+5. During the first run you will be asked to enter your computer pin number.  This can be reset by deleting pin.bin.
+6. Scan your NFC Cards
+7. Put the UUID for each card on one line and save in keys.txt.
+8. Close Thonny and restart your Circuit Python device. Your card should now unlock your computer.
 
 # Schematic
 <picture>
