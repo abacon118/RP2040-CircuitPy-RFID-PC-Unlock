@@ -23,7 +23,7 @@ Steps to set up:
 1. Connect RC522 RFID Reader to your RP2040 Zero.
 2. Install Circuit Python on your device.  This was tested with Circuit Python 8.1.0 on a Waveshare RP2040 Zero.
 3. Copy the following to your Circuit Python device.
-	boot.py
+    boot.py
     code.py
     mrfc522.py
     pin_manager.py
