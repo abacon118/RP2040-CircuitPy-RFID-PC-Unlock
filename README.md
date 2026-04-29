@@ -1,4 +1,4 @@
-# RP2040 CircuitPy RFID PC Unlock
+# RP2040 CircuitPy RFID/NFC PC Unlock
 
 This allows you to unlock your computer with an NFC or RFID tag.  Programmed using Circuit Python on a RP2040 Zero board from AliExpress, it conencts to a RC522 RFID Reader.  This uses the Adafruit_hid.keyboard Circuit Python library to input the password as text to the computer.
 
@@ -21,10 +21,9 @@ Steps to set up:
 1. Connect RC522 RFID Reader to your RP2040 Zero.
 2. Download CircuitPython_Device and open Code.Py in Thonny.  Copy lib folder to Circuit Python device with Thonny (see Get Started with MicroPython on Raspberry Pi Pico)
 3. Run the Code
-4. Scan your RFID/NFC cards/fobs
-5. Copy the card/fob ID into line 27
-6. Insert your password or passcode into line 68
-7. Save code.py to RP2040 Zero
+4. During the first run you will be asked to enter your computer pin number.  This can be reset by deleting pin.bin.
+5. Scan your NFC Cards
+6. Put the UUID for each card on one line and save in keys.txt.
 
 # Schematic
 <picture>
