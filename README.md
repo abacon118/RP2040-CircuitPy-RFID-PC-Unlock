@@ -4,6 +4,8 @@ This allows you to unlock your computer with an NFC or RFID tag.  Programmed usi
 
 Copy the CircuitPython_Device folder to your RP2040 Zero.  All needed libaries are included there.  Boot.Py prevents your RP2040 Zero from showing up as a USB Flash Drive in File Explorer.
 
+V2 changes the pin number to be semi-encrypted.  The pin number is stored on the RP2040 in a file that is encrypted with the Adafruit Hashlib library.  The hardware ID is the encryption key.
+
 Parts:
 * RP2040 Zero
 	* https://www.aliexpress.us/item/3256805271899344.html?spm=a2g0o.order_list.order_list_main.39.6fe01802m0HRTG&gatewayAdapt=glo2usa
